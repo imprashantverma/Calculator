@@ -88,6 +88,7 @@ dot.addEventListener('click',function(){
     setTimeout(removeBorder,150,dot);
 });
 plus.addEventListener('click',function(){   
+    
     let str = JSON.stringify(output.textContent);
     if(str[str.length-2] == '-' ||str[str.length-2] == '.' ||str[str.length-2] == '*' ||str[str.length-2] == '/' ||str[str.length-2] == '%'||str[str.length-2] == '+'){
         output.textContent='';
@@ -100,6 +101,7 @@ plus.addEventListener('click',function(){
     
 });
 minus.addEventListener('click',function(){
+
     let str = JSON.stringify(output.textContent);
     if(str[str.length-2] == '-' ||str[str.length-2] == '.'||str[str.length-2] == '%' ||str[str.length-2] == '*' ||str[str.length-2] == '/' ||str[str.length-2] == '+'){
         str[str.length-2]='+';
@@ -132,7 +134,7 @@ equal.addEventListener('click',function(){
     }
   
 });
-divi.addEventListener('click',function(){   
+divi.addEventListener('click',function(){
     let str = JSON.stringify(output.textContent);
     if(str[str.length-2] == '-' ||str[str.length-2] == '.' ||str[str.length-2] == '*'||str[str.length-2] == '%' ||str[str.length-2] == '/' ||str[str.length-2] == '+'){
         str[str.length-2]='+';
@@ -147,6 +149,8 @@ divi.addEventListener('click',function(){
 });
 ac.addEventListener('click',function(){
     output.textContent='';
+    ac.style.border="2px solid red";
+    setTimeout(removeBorder,150,ac);
     
 });
 ce.addEventListener('click',function(){
@@ -154,6 +158,7 @@ ce.addEventListener('click',function(){
     output.textContent='';
         for(let i = 1 ; i < str.length-2;i++)
             output.textContent+=str[i];
+
 });
 modulo.addEventListener('click',function(){
     let str = JSON.stringify(output.textContent);
@@ -166,7 +171,5 @@ modulo.addEventListener('click',function(){
     else if(output.textContent=='')output.textContent='0%';
     else output.textContent+='%';
 });
-
-
 
 
