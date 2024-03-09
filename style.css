@@ -1,6 +1,5 @@
 body{
-    
-   backgroun-color:red;
+     background-image: radial-gradient(rgb(217, 226, 167),rgb(180, 168, 177),rgb(133, 208, 218));
 }
 .container{
     display: inline-block;
