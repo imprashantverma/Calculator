@@ -1,47 +1,40 @@
 body{
-    background-image: radial-gradient(rgb(217, 226, 167),rgb(180, 168, 177),rgb(133, 208, 218));
+    background-image: radial-gradient(rgb(217, 226, 167),rgb(180, 168, 177),rgb(133, 208, 218)); 
 }
 .container{
     margin-top: 100px;
-    height: 440px;
-    width: 335px;
-    background-color: rgb(250, 249, 245);
+    height: 450px;
+    width: 360px;
+    border: 2px solid rgb(250,249,245);
     border-radius: 35px;
 }
-.outputdiv{
-    margin-top: 10px;
-    text-align: center;
-    height: 60px;
-    width: 335px;
-}
-/* table class */
 .tab{
-    border-top: 2px solid rgb(129, 125, 125);
-    margin-top: 30px;
-    position: relative;
-    height: 320px;
-    width: 335px; 
+    table-layout: fixed;
+    border-top:2px solid rgb(250,249,245) ;
+    margin-top: 55px;
+    border-spacing: 16px;
+    height: 340px;
+    width: 360px;
 }
-/* table data buttons */
-th{
-    margin-right: 20px;
-    color: rgb(87, 84, 81);
-    border-radius:35px;
-    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    font-size:large;
-    background-color:rgb(250, 249, 245);
+td{
+    border: 4px solid antiquewhite ;
+    text-align: center;
+    background-color: rgb(247, 237, 222)  ;
+    border-radius: 20px;
 }
 
-/* user output reuslts  */
-#output{
+p{
+    height: 35px;
+    width: 320px;
     text-align: right;
-    height: 29px;
-    margin: 0px;
-    overflow:hidden;
     font-size: x-large;
-    margin-top: 20px;
+    overflow:hidden;
     margin-left: 15px;
-    margin-right: 15px; 
+    margin-right: 13px
 }
+.special{
+    color: cadetblue;
+}
+
 
 
