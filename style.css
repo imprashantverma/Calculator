@@ -1,0 +1,49 @@
+body{
+    background-image: radial-gradient(rgb(217, 226, 167),rgb(180, 168, 177),rgb(133, 208, 218));
+}
+.container{
+    display: inline-block;
+    margin-left: 500px;
+    margin-top: 100px;
+    height: 440px;
+    width: 335px;
+    background-color: rgb(250, 249, 245);
+    border-radius: 35px;
+}
+.outputdiv{
+    margin-top: 10px;
+    text-align: center;
+    height: 60px;
+    width: 335px;
+}
+/* table class */
+.tab{
+    border-top: 2px solid rgb(129, 125, 125);
+    margin-top: 30px;
+    position: relative;
+    height: 320px;
+    width: 335px; 
+}
+/* table data buttons */
+th{
+    margin-right: 20px;
+    color: rgb(87, 84, 81);
+    border-radius:35px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size:large;
+    background-color:rgb(250, 249, 245);
+}
+
+/* user output reuslts  */
+#output{
+    text-align: right;
+    height: 29px;
+    margin: 0px;
+    overflow:hidden;
+    font-size: x-large;
+    margin-top: 20px;
+    margin-left: 15px;
+    margin-right: 15px; 
+}
+
+
