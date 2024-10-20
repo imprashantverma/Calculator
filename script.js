@@ -114,6 +114,7 @@ minus.addEventListener('click',function(){
     else output.textContent+='-';
 });
 multi.addEventListener('click',function(){  
+    console.log("hey man");
     let str = JSON.stringify(output.textContent);
     if(str[str.length-2] == '-' ||str[str.length-2] == '.' ||str[str.length-2] == '*' ||str[str.length-2] == '%'||str[str.length-2] == '/' ||str[str.length-2] == '+'){
         str[str.length-2]='+';
